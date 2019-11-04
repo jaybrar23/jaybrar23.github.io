@@ -1,0 +1,5 @@
+purple banners 613DC1   
+grey background  #5D536B
+
+yellow logo #f3f70c
+purple logo 613DC1 
