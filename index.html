@@ -1,60 +1,52 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width">
-    <meta name="description" content="A list of good IT books">
-	  <meta name="keywords" content="IT books, education, university">
-  	<meta name="author" content="Jatinder Brar">
-    <title>Jay's list | About us </title>
-    <link rel="stylesheet" href="./css/style.css">
-  </head>
-  <body>
-    <header>
-      <div class="container">
-        <div id="branding">
-          <a href="main.html"><img src="./img/logo.PNG" alt="Jay's list" style="width:13%;height:8%;"></a>
-        
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width" name="viewport">
+  <meta content="A list of good IT books" name="description">
+  <meta content="IT books, education, university" name="keywords">
+  <meta content="Jatinder Brar" name="author">
+  <title>Jay's list | Home</title>
+  <link href="./css/style.css" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <div class="container">
+      <div id="branding">
+        <a href="main.html"><img alt="Jay's list" src="./img/logo.PNG" style="width:13%;height:8%;"></a>
         <nav>
           <ul>
-            <li><a href="main.html">Home</a></li>
-            <li class="current"><a href="aboutme.html">About me</a></li>
-            <li><a href="books.html">Books</a></li>
+            <li class="current">
+              <a href="main.html">Home</a>
+            </li>
+            <li>
+              <a href="aboutme.html">About me</a>
+            </li>
+            <li>
+              <a href="books.html">Books</a>
+            </li>
           </ul>
         </nav>
-		</div>
       </div>
-    </header>
-
-    <section id="main">
-      <div class="container">
-        <article id="main-col">
-          <h1 class="page-title">About me</h1>
-          <p>
-            Add CV Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec varius auctor lacus nec feugiat. Phasellus sit amet ex ipsum. Praesent pharetra tincidunt tempor. Etiam velit eros, dapibus eget porta in, lacinia et magna. Nam eget eros non orci consectetur congue at ac augue. Proin eget arcu in enim feugiat ultricies. Curabitur maximus metus nec metus pretium viverra at et orci. Integer hendrerit ante ut placerat cursus.
-          </p>
-          <p class="dark">
- Add important cv :Aliquam eget pharetra diam. Nulla placerat lorem at turpis tempor, vel ultrices dui tincidunt. Proin quis egestas lorem. Mauris vehicula lectus odio, sit amet dictum justo feugiat a. Praesent id dictum lacus. Sed ullamcorper id erat ut dictum. Fusce porttitor lorem sapien, in aliquet sapien convallis et. Donec nec mauris nulla. Curabitur cursus semper odio, et hendrerit ante. Nunc at cursus ante. Maecenas gravida ligula ut efficitur suscipit. Nulla id turpis varius, pretium nunc sed, fermentum sem. Sed lacinia nunc non interdum pellentesque.
-          </p>
-        </article>
-
-        <aside id="sidebar">
-          <div class="dark">
-            <h3>side section</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec varius auctor lacus nec feugiat. Phasellus sit amet ex ipsum. Praesent pharetra tincidunt tempor. Etiam velit eros, dapibus eget porta in, lacinia et magna</p>
-          </div>
-        </aside>
-		<aside id="sidebar">
-          <div class="dark">
-            <h3>another side section</h3>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec varius auctor lacus nec feugiat. Phasellus sit amet ex ipsum. Praesent pharetra tincidunt tempor. Etiam velit eros, dapibus eget porta in, lacinia et magna</p>
-          </div>
-        </aside>
-      </div>
-    </section>
-
-    <footer>
-      <p>Acme Web Deisgn, Copyright &copy; 2017</p>
-    </footer>
-  </body>
+    </div>
+  </header>
+  <section id="showcase">
+    <div class="container">
+      <h1>Jay's list</h1>
+      <p>Information technology is an evolving field with a large number of subfields such as networking, scripting, making websites, and many others. While we need different books for each of these fields, there are some books that should be read by everyone. I made this website for one purpose; to compile a list of books that will be helpful to IT students as well as professionals. For now, the website only contains books that I think are helpful but with feedback and suggestions from users like you, new books will be added too.</p>
+      <p>So far, the list consists of only nine books but more books will be added soon. Signup to our newsletter and we will email you whenever a new book is added. Head down to our books section to read about the books, give your reccomendation or read reccomendation from the community.</p>
+    </div>
+  </section>
+  <section id="newsletter">
+    <div class="container3">
+      <h1>Subscribe for weekly updates</h1>
+      <form action="newsletter.php" method="post">
+        <input name="email" placeholder="example@example.com" type="email"> <button class="button_1" type="submit">Subscribe</button>
+      </form>
+    </div>
+  </section>
+  <footer>
+    <p>Jay's list, Copyright &copy; 2019</p>
+  </footer>
+</body>
 </html>

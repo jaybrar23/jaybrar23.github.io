@@ -1,72 +1,52 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width">
-    <meta name="description" content="A list of good IT books">
-	  <meta name="keywords" content="IT books, education, university">
-  	<meta name="author" content="Jatinder Brar">
-    <title>Jay's list | Home </title>
-    <link rel="stylesheet" href="./css/style.css">
-  </head>
-  <body>
-    <header>
-      <div class="container">
-        <div id="branding">
-          <a href="main.html"><img src="./img/logo.PNG" alt="Jay's list" style="width:13%;height:8%;"></a>
-        
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width" name="viewport">
+  <meta content="A list of good IT books" name="description">
+  <meta content="IT books, education, university" name="keywords">
+  <meta content="Jatinder Brar" name="author">
+  <title>Jay's list | Home</title>
+  <link href="./css/style.css" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <div class="container">
+      <div id="branding">
+        <a href="main.html"><img alt="Jay's list" src="./img/logo.PNG" style="width:13%;height:8%;"></a>
         <nav>
           <ul>
-            <li class="current"><a href="main.html">Home</a></li>
-            <li><a href="aboutme.html">About me</a></li>
-            <li><a href="books.html">Books</a></li>
+            <li class="current">
+              <a href="main.html">Home</a>
+            </li>
+            <li>
+              <a href="aboutme.html">About me</a>
+            </li>
+            <li>
+              <a href="books.html">Books</a>
+            </li>
           </ul>
         </nav>
-		</div>
       </div>
-    </header>
-
-    <section id="showcase">
-      <div class="container">
-        <h1>Jay's list</h1>
-        <p>A list of books that will be very helpful to IT students as well as professionals. </p>
-      </div>
-    </section>
-
-    <section id="boxes">
-	<h2>Some books that you can start with</h2>
-	<h3>Click on them for more information</h3>
-      <div class="container">
-        <div class="box">
-          <img src="./img/automate.jpg">
-          <h3>Automate the boring stuff of python</h3>
-          <p>About this book</p>
-        </div>
-        <div class="box">
-          <img src="./img/c.PNG">
-          <h3>Second book</h3>
-          <p>about this book</p>
-        </div>
-        <div class="box">
-          <img src="./img/clean.PNG">
-          <h3>third book</h3>
-          <p>about this book</p>
-        </div>
-      </div>
-    </section>
-	
-	    <section id="newsletter">
-      <div class="container">
-        <h1>Subscribe for weekly updates    </h1>
-        <form method = "post" action="newsletter.php" required>
-          <input type="email" name="email" placeholder="example@example.com">
-          <button type="submit" class="button_1">Subscribe</button>
-        </form>
-      </div>
-    </section>
-
-    <footer>
-      <p>Jay's list, Copyright &copy; 2019</p>
-    </footer>
-  </body>
+    </div>
+  </header>
+  <section id="showcase">
+    <div class="container">
+      <h1>Jay's list</h1>
+      <p>Information technology is an evolving field with a large number of subfields such as networking, scripting, making websites, and many others. While we need different books for each of these fields, there are some books that should be read by everyone. I made this website for one purpose; to compile a list of books that will be helpful to IT students as well as professionals. For now, the website only contains books that I think are helpful but with feedback and suggestions from users like you, new books will be added too.</p>
+      <p>So far, the list consists of only nine books but more books will be added soon. Signup to our newsletter and we will email you whenever a new book is added. Head down to our books section to read about the books, give your reccomendation or read reccomendation from the community.</p>
+    </div>
+  </section>
+  <section id="newsletter">
+    <div class="container3">
+      <h1>Subscribe for weekly updates</h1>
+      <form action="newsletter.php" method="post">
+        <input name="email" placeholder="example@example.com" type="email"> <button class="button_1" type="submit">Subscribe</button>
+      </form>
+    </div>
+  </section>
+  <footer>
+    <p>Jay's list, Copyright &copy; 2019</p>
+  </footer>
+</body>
 </html>
