@@ -1,12 +1,20 @@
-@media screen and (min-resolution: 3dppx)
-{
-#bot {width=50%; background-color: black;}
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: lightblue;
+  }
 }
-@media screen and (min-resolution: 2dppx)
-{
-#bot {width=70%;background-color: black;}
+@media only screen and (max-width: 900px) {
+  body {
+    background-color: black;
+  }
 }
-@media screen and (min-resolution: 1dppx) {
-#bot {width=100%;background-color: black;}
+@media only screen and (max-width: 1200px) {
+  body {
+    background-color: red;
+  }
 }
-@media screen and (min-resolution: 288dpi) { ... }
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: lightblue;
+  }
+}
