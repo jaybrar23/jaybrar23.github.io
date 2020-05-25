@@ -2,23 +2,18 @@
     background-color: lightblue;
   }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (min-resolution: 3dppx) {
   body {
-    background-color: lightblue;
+    background-color: gree;
   }
 }
-@media only screen and (max-width: 900px) {
-  body {
-    background-color: black;
-  }
-}
-@media only screen and (max-width: 1200px) {
+@media only screen and (min-resolution: 2dppx) {
   body {
     background-color: red;
   }
 }
-@media only screen and (max-width: 600px) {
+@media only screen and (min-resolution: 1dppx) {
   body {
-    background-color: lightblue;
+    background-color: yellow;
   }
 }
