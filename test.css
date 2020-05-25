@@ -3,7 +3,7 @@
     background-color: gree;
   }
 }
-@media only screen and (min-resolution: 2dppx) {
+@media only screen and (min-resolution: 2dppx AND max-width: 600px) {
   body {
     background-color: red;
   }
