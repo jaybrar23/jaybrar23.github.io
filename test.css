@@ -1,25 +1,10 @@
-
-#bot {
-    width: 100%;
+@media screen and (min-resolution: 3dppx) {
+    #bot {width=50%}
 }
-@media screen and (max-width: 992px) {
-#bot{
-    width: 100%;
-  }
+@media screen and (min-resolution: 2dppx) {
+    #bot {width=70%}
 }
-@media screen and (min-resolution: 118dpcm) {
-#bot {
-    width: 100%;
-  }
+@media screen and (min-resolution: 1dppx) {
+    #bot {width=100%}
 }
-
-
-@media print and (min-resolution: 118dpcm) { … }
-
-
-
-@media (max-width: 576px) 
-@media (min-width: 576px) { ... }
-@media (min-width: 768px) { ... }
-@media (min-width: 992px) { ... }
-@media (min-width: 1200px) { ... }
+@media screen and (min-resolution: 288dpi) { ... }
