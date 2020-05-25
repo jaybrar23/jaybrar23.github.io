@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="test.css">
+</head>
+<body>
+
+<h1>Bot title</h1>
+<p>Bot comments and other stuff.</p>
+<iframe id="bot" src="/default.asp" height="300" style="border:1px solid black;">
+</iframe>
+</body>
+</html>
