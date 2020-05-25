@@ -8,7 +8,7 @@
     background-color: red;
   }
 }
-@media only screen and (min-resolution: 1dppx) {
+@media only screen and (min-resolution: 1dppx AND max-width: 600px) {
   body {
     background-color: yellow;
   }
