@@ -1,0 +1,28 @@
+#bot {
+    width: 384;
+}
+
+/* On screens that are 992px or less, set the background color to blue */
+@media screen and (max-width: 992px) {
+#bot{
+    width: 50%;
+  }
+}
+
+/* On screens that are 600px or less, set the background color to olive */
+@media screen and (min-resolution: 118dpcm) {
+#bot {
+    width: 100%;
+  }
+}
+
+
+@media print and (min-resolution: 118dpcm) { … }
+
+
+
+@media (max-width: 576px) 
+@media (min-width: 576px) { ... }
+@media (min-width: 768px) { ... }
+@media (min-width: 992px) { ... }
+@media (min-width: 1200px) { ... }
