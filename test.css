@@ -1,19 +1,19 @@
-@media only screen and (min-width: 1080px) {
+@media only screen and (max-width: 1080px) {
   body {
     background-color: red;
   }
 }
-@media only screen and (min-width: 900px) {
+@media only screen and (max-width: 900px) {
   body {
     background-color: green;
   }
 }
-@media only screen and (min-width: 784px) {
+@media only screen and (max-width: 784px) {
   body {
     background-color: blue;
   }
 }
-@media only screen and (min-width: 500px) {
+@media only screen and (max-width: 500px) {
   body {
     background-color: yellow;
   }
