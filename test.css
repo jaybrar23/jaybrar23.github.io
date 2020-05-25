@@ -1,1 +1,25 @@
 
+#bot {
+    width: 100%;
+}
+@media screen and (max-width: 992px) {
+#bot{
+    width: 100%;
+  }
+}
+@media screen and (min-resolution: 118dpcm) {
+#bot {
+    width: 100%;
+  }
+}
+
+
+@media print and (min-resolution: 118dpcm) { … }
+
+
+
+@media (max-width: 576px) 
+@media (min-width: 576px) { ... }
+@media (min-width: 768px) { ... }
+@media (min-width: 992px) { ... }
+@media (min-width: 1200px) { ... }
